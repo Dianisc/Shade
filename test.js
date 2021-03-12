@@ -20,7 +20,7 @@ function calcular()
 
 
      //1. USING ACD, CALCULATE DISTANCE AMONG POINTS, 3 TRIANGLES, XY PLANE
-     alert("XY para ACD " + trinomio(ac,c,a));
+     //alert("XY para ACD " + trinomio(ac,c,a));
      //alert("XY para ACD " + trinomio(da,d,a));
     // alert("XY para ACD " + trinomio(cd,d,c));
 
@@ -47,7 +47,7 @@ function calcular()
      console.log("operacos", operacos);    
      triangles = Math.acos(operacos);
      console.log("Int angle", triangles);
-     alert("Int angle ACAD " + triangles);
+     //alert("Int angle ACAD " + triangles);
 
      
      let area = d11 * d12 * (Math.sin(triangles))/2;
